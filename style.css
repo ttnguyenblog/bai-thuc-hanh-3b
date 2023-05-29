@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 8px 24px;
+}
+
+/* Start css phần đầu trang */
+
+header{
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  
+    rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+    display: block;
+    height: 68px;
+}
+
+header h1{
+    line-height: 68px;
+    text-transform: uppercase;
+    padding-left: 12px;
+}
+
+/* End css phần đầu trang */
+
+/* Start css navigation */
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+nav ul li a{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  
+    rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav ul li a:hover{
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  
+    rgba(0, 115, 255, 0.893) 12.9%, rgba(255, 0, 43, 0.44) 91.2% );
+}
+
+/* End css navigation */
+
+/* Start css content */
+
+.content h2{
+    color: #cb7024;
+    text-transform: uppercase;
+}
+
+.content h2:hover{
+    color: #ff7300;
+}
+
+article{
+    padding: 4px 0px;
+}
+
+article h3:hover{
+    color: blanchedalmond
+}
+
+article .read-more a{
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article .read-more a:hover{
+    color: blanchedalmond
+}
+
+
+/* End css content */
+
+/* Start css img */
+
+img{
+    display: block;
+    margin: auto;
+    padding: auto;
+    border: 6px solid #cb7024;
+    max-width: 100%;
+    height: fit-content;
+
+}
+
+figcaption{
+    text-align: center;
+}
+
+/* End css img */
+
+/* Start CSS footer */
+
+footer{
+    height: 100px;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  
+    rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+}
+
+footer p{
+    line-height: 100px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* End CSS footer */
